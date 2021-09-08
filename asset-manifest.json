@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ssacademy/static/css/main.d4a2bc8f.chunk.css",
+    "main.js": "/ssacademy/static/js/main.b17ca4b2.chunk.js",
+    "main.js.map": "/ssacademy/static/js/main.b17ca4b2.chunk.js.map",
+    "runtime-main.js": "/ssacademy/static/js/runtime-main.09fe5620.js",
+    "runtime-main.js.map": "/ssacademy/static/js/runtime-main.09fe5620.js.map",
+    "static/js/2.5fd053aa.chunk.js": "/ssacademy/static/js/2.5fd053aa.chunk.js",
+    "static/js/2.5fd053aa.chunk.js.map": "/ssacademy/static/js/2.5fd053aa.chunk.js.map",
+    "static/js/3.2e6b5435.chunk.js": "/ssacademy/static/js/3.2e6b5435.chunk.js",
+    "static/js/3.2e6b5435.chunk.js.map": "/ssacademy/static/js/3.2e6b5435.chunk.js.map",
+    "index.html": "/ssacademy/index.html",
+    "static/css/main.d4a2bc8f.chunk.css.map": "/ssacademy/static/css/main.d4a2bc8f.chunk.css.map",
+    "static/js/2.5fd053aa.chunk.js.LICENSE.txt": "/ssacademy/static/js/2.5fd053aa.chunk.js.LICENSE.txt",
+    "static/media/Hbanner.css": "/ssacademy/static/media/banner.c281750d.jpg",
+    "static/media/kanika.269dbe88.jpeg": "/ssacademy/static/media/kanika.269dbe88.jpeg",
+    "static/media/karan.200c7e37.jpeg": "/ssacademy/static/media/karan.200c7e37.jpeg",
+    "static/media/komal.03f36812.jpg": "/ssacademy/static/media/komal.03f36812.jpg",
+    "static/media/Home.css": "/ssacademy/static/media/welcomeMessage.724a279f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09fe5620.js",
+    "static/js/2.5fd053aa.chunk.js",
+    "static/css/main.d4a2bc8f.chunk.css",
+    "static/js/main.b17ca4b2.chunk.js"
+  ]
+}
