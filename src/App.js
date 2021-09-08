@@ -13,10 +13,10 @@ function App() {
     <Upnav />
     <Nav />
     <Switch>
-      <Route exact path=':url?/' component={Home}></Route>
-      <Route exact path=':url?/courses/:class1?' component={Courses}></Route>
-      <Route exact path=':url?/faculty' component={Progress}></Route>
-      <Route exact path=':url?/examination' component={Progress}></Route>
+      <Route exact path='/' component={Home}></Route>
+      <Route exact path='/courses/:class1?' component={Courses}></Route>
+      <Route exact path='/faculty' component={Progress}></Route>
+      <Route exact path='/examination' component={Progress}></Route>
       <Route component={ErrorPage}></Route>
     </Switch>
     <Footer />
