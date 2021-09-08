@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googlyarn starteapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+.course_card_container{
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+}
+.course_card{
+    position: relative;
+    margin: 20px auto;
+    grid-column: 2/3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    height: 200px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px 2px #d8d1d1;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.course_card:hover{
+    transform:translate(0px, -10px);
+    box-shadow: none;
+}
+.course_no{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #ffffff;
+    box-shadow: 4px 4px 3px 1px #929292;
+    text-shadow: 3px 3px 2px rgb(87, 87, 87);
+}
+.course_detail{
+    display: flex;
+    align-items: center;
+    margin: auto 20px;
+    line-height: 45px;
+    font-weight: 600; 
+}
+.course_detail p{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: #8f8f8f;
+}
+.course_detail p span{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 500;
+    left: 2%;
+    color: #000000;
+    font-family: 'Titillium Web', sans-serif;
+}
+.course_fees{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #20b3b3;
+}
+.course_fees p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #08424d;
+    font-family: 'JetBrains Mono', monospace;
+}
+.course_fees span{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(221, 245, 8);
+    text-shadow: 1.5px 1.5px 2px #000000;
+    letter-spacing: 2px;
+}
+@media (max-width: 950px) and (min-width: 769px){
+    .course_card{
+        grid-column: 2/3;
+        grid-template-columns: 150px 1fr 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 768px) and (min-width:481px){
+    .course_card{
+        grid-column: 2/3;
+        grid-template-columns: 150px 1fr;
+        height: auto;
+        margin: 35px auto;
+    }
+    .course_fees{
+        position: absolute;
+        right: 0%;
+        bottom: -44px;
+        padding: 10px;
+        box-shadow: 0px 3px 1px 1px #194e55;
+    }
+    .course_fees p{
+        display: none;
+    }
+    .course_fees span{
+        font-size: 2rem;
+    }
+    .course_detail p{
+        font-size: 1.8rem;
+    }
+    .course_detail p span{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .course_no{
+        font-size: 5rem;
+    }
+    .course_card{
+        grid-column: 2/3;
+        grid-template-columns: 100px 1fr;
+        height: auto;
+        margin: 30px auto;
+    }
+    .course_fees{
+        position: absolute;
+        right: 0%;
+        bottom: -38px;
+        padding: 10px;
+        box-shadow: 0px 3px 1px 1px #194e55;
+    }
+    .course_fees p{
+        display: none;
+    }
+    .course_fees span{
+        font-size: 1.5rem;
+    }
+    .course_detail p{
+        font-size: 1.5rem;
+    }
+    .course_detail p span{
+        font-size: 1.5rem;
+    }
+    .course_detail{
+        margin: auto 10px;
+        line-height: 35px;
+    }
+}

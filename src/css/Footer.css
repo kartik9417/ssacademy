@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #212127;
+    color: white;
+    box-sizing: border-box;
+    justify-content: center;
+}
+footer div h6{
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+.footer_i{
+    width: 270px;
+    margin: 30px;
+}
+footer p{
+    line-height: 20px;
+    color: #dddd;
+    margin: 20px auto;
+    font-size: 1.3rem;
+}
+footer p span{
+    color: white;
+    font-size: 1.3rem;
+}
+.address span{
+    position: relative;
+    display: inline-block;
+    transform: scale(2);
+    left: -5%
+}
+.timing p:nth-child(3) span{
+    position: relative;
+    display: inline-block;
+    font-size: 1.3rem;
+    background-color: red;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+    left: 4%;
+    color: white;
+}
+.timing span{
+    position: relative;
+    left: 4%;
+}

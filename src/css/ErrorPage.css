@@ -1,0 +1,27 @@
+.Error{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 40px;
+}
+.Error h6{
+    font-size: 4rem;
+    text-align: center;
+}
+.Error a{
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(55, 29, 170);
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
+    box-shadow: 1px 1px 2px 1px rgb(148, 10, 10);
+    transition-duration: 0.2s;
+}
+.Error a:hover{
+    background-color: rgb(80, 58, 180);
+}
